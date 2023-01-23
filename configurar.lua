@@ -100,3 +100,5 @@ Configuracion.Alijo = {
 	},
 
 }
+
+print("Comedme la polla")
