@@ -5,6 +5,7 @@ Configuracion.Distancia = 1.5
 Configuracion.Trabajos = {
 	{nombre = "americanb", label = "American"},
 	{nombre = "marabunta", label = "Marabunta"},
+	{nombre = "youbi_vagos", label = "Vagos"},
 }
 
 Configuracion.Armas = {
@@ -35,6 +36,21 @@ Configuracion.Armas = {
 			{Nombre = "Glock 17", Modelo = "WEAPON_COMBATPISTOL", Precio = 23000},
 		}
 	},
+
+	youbi_vagos = {
+
+		Habilitado = true,
+		Punto = {x = 352.57730102539, y = -2059.5061035156, z = 22.245286941528},
+		Armas = {
+			{Nombre = "Gasolina", Modelo = "WEAPON_PETROLCAN", Precio = 300},
+			{Nombre = "Bate", Modelo = "WEAPON_BAT", Precio = 2000},
+			{Nombre = "Puño Americano", Modelo = "WEAPON_KNUCKLE", Precio = 3500},
+			{Nombre = "Navaja", Modelo = "WEAPON_SWITCHBLADE", Precio = 5000},
+			{Nombre = "Pistola Cutre", Modelo = "WEAPON_SNSPISTOL", Precio = 13000},
+			{Nombre = "Glock 17", Modelo = "WEAPON_COMBATPISTOL", Precio = 23000},
+		}
+	},
+	
 }
 
 Configuracion.Ropa = {
@@ -44,6 +60,9 @@ Configuracion.Ropa = {
 	},
 	marabunta = {
 		Punto = {x = 1269.2514648438, y = -1710.9399414063, z = 54.771495819092},
+	},
+	youbi_vagos = {
+		Punto = {x = 349.99255371094, y = -2057.4035644531, z = 22.245275497437},
 	},
 
 }
@@ -86,6 +105,24 @@ Configuracion.Coches = {
 			{Nombre = "BMX", Modelo = "bmx", Precio = 30}
 		}
 	},
+	youbi_vagos = {
+		Punto = { x = 327.91610717773, y = -2051.8972167969, z = 20.879081726074},
+		PuntoBorrar = {
+			{x = 337.65301513672, y = -2035.9470214844, z = 21.370662689209}
+		},
+		Spawn = {x = 331.53057861328, y = -2044.6052246094, z = 20.38374710083, h = 319.12},
+		Color = {r = 216, g = 227, b = 0},
+
+		Plus = 0,
+
+		Vehiculos = {
+			{Nombre = "Tornado", Modelo = "tornado", Precio = 50},
+			{Nombre = "Sultan", Modelo = "sultan", Precio = 30},
+			{Nombre = "Buccaneer", Modelo = "buccaneer", Precio = 30},
+			{Nombre = "Felon", Modelo = "felon", Precio = 30},
+			{Nombre = "BMX", Modelo = "bmx", Precio = 30}
+		}
+	},
 
 }
 
@@ -99,6 +136,9 @@ Configuracion.Alijo = {
 		Habilitado = true,
 		Punto = {x = 1272.2080078125, y = -1712.5181884766, z = 54.771495819092}
 	},
+	youbi_vagos = {
+		Habilitado = true,
+		Punto = {x = 353.20126342773, y = -2055.4731445313, z = 22.245275497437}
+	},
 
 }
-print("test")
