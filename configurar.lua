@@ -3,7 +3,8 @@ Configuracion = {}
 Configuracion.Distancia = 1.5
 
 Configuracion.Trabajos = {
-	{nombre = "americanb", label = "American"}
+	{nombre = "americanb", label = "American"},
+	{nombre = "marabunta", label = "Marabunta"},
 }
 
 Configuracion.Armas = {
@@ -100,5 +101,3 @@ Configuracion.Alijo = {
 	},
 
 }
-
--- youbi el mejor
