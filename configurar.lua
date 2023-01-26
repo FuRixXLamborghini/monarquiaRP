@@ -6,6 +6,7 @@ Configuracion.Trabajos = {
 	{nombre = "americanb", label = "American"},
 	{nombre = "marabunta", label = "Marabunta"},
 	{nombre = "youbi_vagos", label = "Vagos"},
+	{nombre = "swift", label = "Swift"},
 }
 
 Configuracion.Armas = {
@@ -50,6 +51,20 @@ Configuracion.Armas = {
 			{Nombre = "Glock 17", Modelo = "WEAPON_COMBATPISTOL", Precio = 23000},
 		}
 	},
+
+	swift = {
+
+		Habilitado = true,
+		Punto = {x = -1008.803894043, y = -1015.1246337891, z = 2.1503098011017},
+		Armas = {
+			{Nombre = "Gasolina", Modelo = "WEAPON_PETROLCAN", Precio = 300},
+			{Nombre = "Bate", Modelo = "WEAPON_BAT", Precio = 2000},
+			{Nombre = "Puño Americano", Modelo = "WEAPON_KNUCKLE", Precio = 3500},
+			{Nombre = "Navaja", Modelo = "WEAPON_SWITCHBLADE", Precio = 5000},
+			{Nombre = "Pistola Cutre", Modelo = "WEAPON_SNSPISTOL", Precio = 13000},
+			{Nombre = "Glock 17", Modelo = "WEAPON_COMBATPISTOL", Precio = 23000},
+		}
+	},
 	
 }
 
@@ -63,6 +78,9 @@ Configuracion.Ropa = {
 	},
 	youbi_vagos = {
 		Punto = {x = 349.99255371094, y = -2057.4035644531, z = 22.245275497437},
+	},
+	swift = {
+		Punto = {x = -1013.9116210938, y = -1013.5327758789, z = 2.1503591537476},
 	},
 
 }
@@ -123,6 +141,25 @@ Configuracion.Coches = {
 			{Nombre = "BMX", Modelo = "bmx", Precio = 30}
 		}
 	},
+	swift = {
+		Punto = { x = -1033.6142578125, y = -1007.5725097656, z = 2.1501955986023},
+		PuntoBorrar = {
+			{x = -1043.587890625, y = -1009.576171875, z = 2.1501934528351}
+		},
+		Spawn = {x = -1040.2630615234, y = -1006.2319946289, z = 1.7281548976898, h = 207.57},
+		Color = {r = 255, g = 255, b = 255},
+
+		Plus = 0,
+
+		Vehiculos = {
+			{Nombre = "Tornado", Modelo = "tornado", Precio = 50},
+			{Nombre = "Sultan", Modelo = "sultan", Precio = 30},
+			{Nombre = "Buccaneer", Modelo = "buccaneer", Precio = 30},
+			{Nombre = "Felon", Modelo = "felon", Precio = 30},
+			{Nombre = "Sultan RS", Modelo = "sultanrs", Precio = 30},
+			{Nombre = "BMX", Modelo = "bmx", Precio = 30}
+		}
+	},
 
 }
 
@@ -139,6 +176,10 @@ Configuracion.Alijo = {
 	youbi_vagos = {
 		Habilitado = true,
 		Punto = {x = 353.20126342773, y = -2055.4731445313, z = 22.245275497437}
+	},
+	swift = {
+		Habilitado = true,
+		Punto = {x = -1016.9013671875, y = -1015.545715332, z = 2.1503582000732}
 	},
 
 }
