@@ -7,7 +7,7 @@ Configuracion.Trabajos = {
 	{nombre = "marabunta", label = "Marabunta"},
 	{nombre = "youbi_vagos", label = "Vagos"},
 	{nombre = "swift", label = "Swift"},
-	{nombre = "ballas", label = "Ballas"},
+	{nombre = "youbi_ballas", label = "Ballas"},
 }
 
 Configuracion.Armas = {
@@ -67,7 +67,7 @@ Configuracion.Armas = {
 		}
 	},
 
-	ballas = {
+	youbi_ballas = {
 
 		Habilitado = true,
 		Punto = {x = 106.29104614258, y = -1981.5007324219, z = 20.962600708008},
