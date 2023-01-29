@@ -7,6 +7,7 @@ Configuracion.Trabajos = {
 	{nombre = "marabunta", label = "Marabunta"},
 	{nombre = "youbi_vagos", label = "Vagos"},
 	{nombre = "swift", label = "Swift"},
+	{nombre = "ballas", label = "Ballas"},
 }
 
 Configuracion.Armas = {
@@ -56,6 +57,20 @@ Configuracion.Armas = {
 
 		Habilitado = true,
 		Punto = {x = -1008.803894043, y = -1015.1246337891, z = 2.1503098011017},
+		Armas = {
+			{Nombre = "Gasolina", Modelo = "WEAPON_PETROLCAN", Precio = 300},
+			{Nombre = "Bate", Modelo = "WEAPON_BAT", Precio = 2000},
+			{Nombre = "Puño Americano", Modelo = "WEAPON_KNUCKLE", Precio = 3500},
+			{Nombre = "Navaja", Modelo = "WEAPON_SWITCHBLADE", Precio = 5000},
+			{Nombre = "Pistola Cutre", Modelo = "WEAPON_SNSPISTOL", Precio = 13000},
+			{Nombre = "Glock 17", Modelo = "WEAPON_COMBATPISTOL", Precio = 23000},
+		}
+	},
+
+	ballas = {
+
+		Habilitado = true,
+		Punto = {x = 106.29104614258, y = -1981.5007324219, z = 20.962600708008},
 		Armas = {
 			{Nombre = "Gasolina", Modelo = "WEAPON_PETROLCAN", Precio = 300},
 			{Nombre = "Bate", Modelo = "WEAPON_BAT", Precio = 2000},
